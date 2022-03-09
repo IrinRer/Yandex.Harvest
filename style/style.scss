@@ -89,14 +89,17 @@ img {
 
 #slide-dot-1:checked + .slide {
   display: flex;
+  justify-content: center;
 }
 
 #slide-dot-2:checked + .slide {
   display: flex;
+  justify-content: center;
 }
 
 #slide-dot-3:checked + .slide {
   display: flex;
+  justify-content: center;
 }
 
 input {
@@ -105,7 +108,7 @@ input {
 
 .menu {
   display: inline-block;
-  position: relative;
+  position: fixed;
   margin-top: 50px;
   left: 50%;
 
